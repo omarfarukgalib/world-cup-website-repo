@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:ital,wght@0,400;0,500;1,500&family=Roboto+Condensed&display=swap');
+
+
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
-
+    font-family: 'Crete Round', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -61,7 +66,7 @@
 
 .card-of-buttons {
     width: 18vw;
-    height: 300px;
+    height: 320px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -139,7 +144,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-    margin-top: -298px;
+    margin-top: -320px;
     margin-left: 320px;
     width: 70vw;
 }
@@ -191,4 +196,39 @@
     margin-left: 30px;
     position: relative;
     bottom: 5px;
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.footer-heading {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-anchor-parent {
+    display: flex;
+    justify-content: center;
+
+}
+
+.para-1 {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+
 }

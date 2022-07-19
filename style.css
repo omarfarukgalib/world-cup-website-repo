@@ -9,7 +9,7 @@
 
 .parent-of-header {
     width: 90vw;
-    margin: 0 auto;
+    margin: auto;
 
 }
 
@@ -57,4 +57,138 @@
     color: white;
 
 
+}
+
+.card-of-buttons {
+    width: 18vw;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.button-1 a {
+    text-decoration: none;
+    color: #000000d8;
+    font-weight: bold;
+}
+
+.button-2 a {
+    text-decoration: none;
+    color: #000000d8;
+    font-weight: bold;
+}
+
+.button-3 a {
+    text-decoration: none;
+    color: #000000d8;
+    font-weight: bold;
+}
+
+.button-1 {
+    background-color: white;
+    padding: 20px 30px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.button-2 {
+    background-color: white;
+    padding: 20px 30px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.button-3 {
+    background-color: red;
+    padding: 20px 30px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.main {
+    width: 90vw;
+    margin: 0 auto;
+
+}
+
+.first-section-of-main-div {
+
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+
+.main-blog-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-top: -298px;
+    margin-left: 320px;
+    width: 70vw;
+}
+
+.main-blog-img {
+    width: 315px;
+    height: 345px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.transfer {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.transfer-heading {
+    margin-left: 20px;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon-time {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.icon-msg {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.time-10 {
+    margin-left: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.msg-23 {
+    margin-left: 30px;
+    position: relative;
+    bottom: 5px;
 }
